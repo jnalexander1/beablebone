@@ -1,0 +1,17 @@
+# config-pin setup for Beaglebone Black - misc cape
+
+# Set output/hi for LEDS L1,L2,L3,L4
+P8.7 hi
+P8.9 hi
+P8.10 hi
+P8.8 hi
+
+# Set input/pullup for Switches K1,K2,K3,K4
+P9.25 in_pu
+P9.27 in_pu
+P9.12 in_pu
+P8.26 in_pu
+
+# set buzzer to output/hi to turn off
+# software will change to pwm
+P9.16 hi

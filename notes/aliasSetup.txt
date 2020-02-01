@@ -1,0 +1,6 @@
+# Add the following alias to /etc/bash.bashrc
+
+alias P8="clear; echo temppwd | sudo -S show-pins | grep P8 | sort"
+alias P9="clear; echo temppwd | sudo -S show-pins | grep P9 | sort"
+alias all="Clear; echo temppwd | sudo -S show-pins | sort"
+alias loadedDT="ls /proc/device-tree/chosen/overlays"
