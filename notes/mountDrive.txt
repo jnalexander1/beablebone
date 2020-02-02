@@ -1,0 +1,4 @@
+1. lsblk - list the device to mount
+2. sudo mkdir /media/usb - make a directory to mount
+3. sudo mount /dev/sdb1 /media/usb - mount the usb device as directory
+4. sudo umount /media/usb - unmount the directory
