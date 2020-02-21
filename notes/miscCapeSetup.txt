@@ -1,3 +1,7 @@
+# Run this file at startup using crontab
+# sudo crontab -e
+# @reboot config-pin -f /home/debian/git/beaglebone/notes/miscCapeSetup.txt
+
 # config-pin setup for Beaglebone Black - misc cape
 
 # Set output/hi for LEDS L1,L2,L3,L4
